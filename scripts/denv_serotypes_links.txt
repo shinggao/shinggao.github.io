@@ -1,0 +1,13 @@
+# Check for and update rotten links periodically
+
+# genome download links for all dengue virus genomes (serotypes 1-4)
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/862/125/GCF_000862125.1_ViralProj15306/GCF_000862125.1_ViralProj15306_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/845/GCF_000871845.1_ViralProj20183/GCF_000871845.1_ViralProj20183_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/625/GCF_000866625.1_ViralProj15598/GCF_000866625.1_ViralProj15598_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/865/065/GCF_000865065.1_ViralProj15599/GCF_000865065.1_ViralProj15599_genomic.fna.gz
+
+# genome annotation download links (corresponding to the above genomes)
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/862/125/GCF_000862125.1_ViralProj15306/GCF_000862125.1_ViralProj15306_genomic.gff.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/845/GCF_000871845.1_ViralProj20183/GCF_000871845.1_ViralProj20183_genomic.gff.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/625/GCF_000866625.1_ViralProj15598/GCF_000866625.1_ViralProj15598_genomic.gff.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/865/065/GCF_000865065.1_ViralProj15599/GCF_000865065.1_ViralProj15599_genomic.gff.gz

@@ -1,0 +1,255 @@
+{
+  "assemblies": [
+    {
+      "name": "DENV1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "DENV1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "DENV1.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "DENV1.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "DENV2",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "DENV2-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "DENV2.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "DENV2.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "DENV3",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "DENV3-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "DENV3.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "DENV3.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "DENV4",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "DENV4-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "DENV4.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "DENV4.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "plugins": [
+    {
+      "name": "Protein3d",
+      "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js"
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "denv1_genes.gff",
+      "name": "denv1_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "denv1_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "denv1_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "DENV1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "denv2_genes.gff",
+      "name": "denv2_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "denv2_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "denv2_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "DENV2"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "denv3_genes.gff",
+      "name": "denv3_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "denv3_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "denv3_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "DENV3"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "denv4_genes.gff",
+      "name": "denv4_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "denv4_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "denv4_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "DENV4"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "DENV1-index",
+      "ixFilePath": {
+        "uri": "trix/DENV1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/DENV1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/DENV1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "DENV1"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "DENV2-index",
+      "ixFilePath": {
+        "uri": "trix/DENV2.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/DENV2.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/DENV2_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "DENV2"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "DENV3-index",
+      "ixFilePath": {
+        "uri": "trix/DENV3.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/DENV3.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/DENV3_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "DENV3"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "DENV4-index",
+      "ixFilePath": {
+        "uri": "trix/DENV4.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/DENV4.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/DENV4_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "DENV4"
+      ]
+    }
+  ]
+}
