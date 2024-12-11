@@ -4,7 +4,7 @@ JBrowse2 general setup instructions based on BioE 131 Lab 8 directions, found be
 
 https://github.com/bioe131/lab-8-shinggao/tree/main
 
-This README gives Linux instructions for installing JBrowse2 plugins and dengue virus genomes on an AWS instance and assumes JBrowse2 and related dependencies have already been installed per the directions in the above link. To preview what a local setup setup should look like, you can visit https://shinggao.github.io/
+This README gives Linux instructions for installing JBrowse2 plugins and dengue virus genomes on an AWS instance and assumes JBrowse2 and related dependencies have already been installed per the directions in the above link. To preview what a local setup setup should look like, you can visit https://shinggao.github.io/jbrowse2
 
 ## Terminal Setup
 In your root directory, download all files from this repo. If you choose to organize your files into a different location or directory, make sure to prepend all path variables in all bash scripts (below, in the scripts folder) with the corresponding new filepaths.
