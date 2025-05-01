@@ -1,10 +1,6 @@
-# BioE131-Final-Project
+# JBrowse2 ProVis Plugin
 
-JBrowse2 general setup instructions based on BioE 131 Lab 8 directions, found below:
-
-https://github.com/bioe131/lab-8-shinggao/tree/main
-
-This README gives Linux instructions for installing JBrowse2 plugins and dengue virus genomes on an AWS instance and assumes JBrowse2 and related dependencies have already been installed per the directions in the above link. To preview what a local setup setup should look like, you can visit https://shinggao.github.io/jbrowse2
+This README gives Linux instructions for installing JBrowse2 plugins and dengue virus genomes on an AWS instance and assumes JBrowse2 and related dependencies have already been installed per the directions in the footnoted link. To preview what a local setup setup should look like, you can visit https://shinggao.github.io/jbrowse2
 
 ## Terminal Setup
 In your root directory, download all files from this repo. If you choose to organize your files into a different location or directory, make sure to prepend all path variables in all bash scripts (below, in the scripts folder) with the corresponding new filepaths.
@@ -48,4 +44,8 @@ Open `http://yourhost/jbrowse2/` in your web browser, replacing `yourhost` with 
 When viewing a genome, note any features of interest/coding regions. Select the ID attribute from the right-hand side of the screen and search for its corresponding PDB ID online. Some examples are 1ok8, which corresponds to the trimeric spike conformation of serotype 2's envelope glycoprotein, and 3lkw, which is an NS2B/NS3 protease active site mutant coded by serotype 1. 
 
 Open a new Protein View session and input the found PDB ID (click on the wrench icon on the right > input PDB ID on the left > Assembly 1 > Apply Action > 3D Representation > Apply. The 3D protein view should show up for the feature's corresponding protein.
+
+
+JBrowse2 general setup instructions based on BioE 131 Lab 8 directions, found below:
+https://github.com/bioe131/lab-8-shinggao/tree/main
 
